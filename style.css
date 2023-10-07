@@ -1,0 +1,124 @@
+body{
+    background-color: white;width: auto;
+}
+h1{
+    color: black;
+    text-shadow: 2px 2px 2px black;font-family:Lucida Handwriting;
+}
+ul{
+    list-style-type: none; margin: 0;padding: 0;overflow: hidden; background-color: #333;box-shadow:3px 3px 8px 0px rgba(52, 96, 227, 0.6) ;
+    border-radius: 5px; width: auto;font-family: cooper;
+}
+li{
+    float: left;
+}
+li.dropdown:hover .dropdown-content{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none; position: absolute;background-color: black;
+}
+li a,.drpbtn{
+    display: block;color: white;text-align: center;padding: 14px 16px;
+    text-decoration: none; text-align: left;
+}
+a:hover,.dropdown:hover,.dropbtn{
+    background-color: red;
+}
+a:hover:not(.active){
+    background-color: #c5b14e; font-weight: bolder;
+}
+.active{
+    background-color: #4caf50;
+}
+.p{
+    word-spacing: 5px;
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 10px;
+    text-indent: 60px;
+    margin: 5px;
+    box-shadow: 3px 3px 8px 0px rgba(52, 96, 227, 0.6) ;
+}
+h2{
+    text-shadow: 2px 1px 2px black;
+}
+.media{
+    display: flex;align-items: flex-start;background: white;
+    padding: 1em;border-radius: 3px;max-width: 100em;box-shadow: 3px 3px 8px 0px rgba(52, 96, 227, 0.6) ;
+}
+.media-object{
+    margin-right: 1em;width: 200;height: 300px;
+}
+.media-body{
+    flex: 1;
+}
+.media-heading{
+    margin:0.5em;
+}
+.dep{
+    background-color: black;
+}
+hr{
+    height: 6px; width: auto; background-color: rgb(2, 0, 10);
+}
+.par{
+    word-spacing: 5px;
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 3px 3px 8px 0px rgba(52, 96, 227, 0.6) ;
+
+}
+#myanimation{
+    width: 120px;height: 40px;; position: relative;
+    font-weight: bold; font-size: 20px;padding: 10px;text-align: center;
+    animation: myanimation 1s infinite alternate;border-radius:6px ;
+}
+@keyframes myanimation{from{background-color: black;color: white;}to{background-color: white;color: black;}
+                     
+    }
+.container{
+    word-spacing: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 3px 3px 8px 0px rgba(52, 96, 227, 0.6) ;
+    background:linear-gradient(rgb(209, 155, 155),rgb(125, 153, 230),rgb(223, 40, 220));
+}   
+.header{
+    word-spacing: 5px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px 0px rgba(52, 96, 227, 0.6) ;
+    background:linear-gradient(rgb(130, 229, 106),rgb(90, 200, 200),rgb(181, 122, 221));
+} 
+.h{
+    word-spacing: 5px;
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 3px 3px 8px 0px rgba(52, 96, 227, 0.6) ;
+    background:linear-gradient(rgb(109, 204, 169),rgb(203, 209, 209));
+}
+/*#lock{
+    display: none;
+}
+@media screen and(min-width:320px) and (max-width:1000px)and (orientation:landscape)
+{
+    #lock{display: block;}
+    #contain{display: none;}
+}
+@media  screen and (min-width:320px) and (max-width:1000px) and (orientation:portrait){
+    #lock{display: none;}
+    #contain{display: block;}
+}*/
+#sanimation{
+    width: 100px;height: 40px;; position: relative;
+    font-weight: bold; font-size: 16px;padding: 2px;text-align: center;margin-top: 1.5px;
+    animation: sanimation 0.5s infinite alternate;border-radius:6px ;
+}
+@keyframes sanimation{from{background-color: rgb(49, 113, 197);color: rgb(220, 18, 18);}to{background-color: rgb(226, 17, 17);color: rgb(44, 20, 203);}
+}
